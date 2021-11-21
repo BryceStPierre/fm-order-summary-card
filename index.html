@@ -36,24 +36,32 @@
     <link rel="stylesheet" href="critical.css" />
   </head>
   <body>
-    <main>
+    <main class="card">
       <img
-        id="hero"
+        class="card__hero"
         src="./images/illustration-hero.svg"
         width="450"
         height="220"
         alt="Hero image"
       />
-      <section class="contents">
-        <h1>Order Summary</h1>
+      <section class="card__contents">
+        <h1 class="card__title">Order Summary</h1>
         <p>
           You can now listen to millions of songs, audiobooks, and podcasts on any
           device anywhere you like!
         </p>
-        <section>Annual Plan $59.99/year Change</section>
 
-        <a class="button" href="#">Proceed to Payment</a>
-        <a class="button" href="#">Cancel Order</a>
+        <section class="plan">
+          <img src="./images/icon-music.svg" width="48" height="48" alt="Music icon">
+          <div class="plan__details">
+            <span class="plan__name">Annual Plan</span>
+            <span class="plan__price">$59.99/year</span>
+          </div>
+          <a href="#">Change</a>
+        </section>
+
+        <a class="btn" href="#">Proceed to Payment</a>
+        <a href="#">Cancel Order</a>
       </section>
     </main>
 

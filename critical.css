@@ -1,18 +1,7 @@
-:root {
-  --primary-pale: hsl(225, 100%, 94%);
-  --primary-bright: hsl(245, 75%, 52%);
-
-  --neutral-very-pale: hsl(225, 100%, 98%);
-  --neutral-desaturated: hsl(224, 23%, 55%);
-  --neutral-dark: hsl(223, 47%, 23%);
-
-  --padding: 20px;
-  --card-width: 500px;
-}
-
 body {
   min-height: 100vh;
-  background: var(--primary-pale) url(./images/pattern-background-mobile.svg) no-repeat;
+  background: var(--primary-pale) url(./images/pattern-background-mobile.svg)
+    no-repeat;
   background-position: top;
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -21,50 +10,66 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
+
+  --primary-pale: hsl(225, 100%, 94%);
+  --primary-bright: hsl(245, 75%, 52%);
+  --neutral-very-pale: hsl(225, 100%, 98%);
+  --neutral-desaturated: hsl(224, 23%, 55%);
+  --neutral-dark: hsl(223, 47%, 23%);
+
+  --padding: 20px;
+  --padding-md: 30px;
 }
 
-main {
-  max-width: 100%;
+.card {
   margin: auto;
-  overflow: hidden;
   border-radius: 15px;
-  width: var(--card-width);
+  width: 300px;
+  max-width: 100%;
+  overflow: hidden;
   background-color: #fff;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 0.75);
 }
 
-#hero {
+.card__hero {
   width: 100%;
   height: auto;
 }
 
-.contents {
-  padding: calc(2 * var(--padding)) var(--padding);
+.card__contents {
+  padding: 0 var(--padding);
+  text-align: center;
 }
 
-h1 {
+.card__title {
   font-size: 1.25em;
   font-weight: 900;
 }
 
 p {
+  font-size: 1em;
   line-height: 1.5;
 }
 
-a {
-  font-weight: 700;
+.plan {
+  display: flex;
+  padding: 12px;
 }
 
-.button {
-  
+.btn {
+  display: block;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--primary-bright);
+  box-shadow: #000;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 375px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 376px) {
   body {
-    background: var(--primary-pale) url(./images/pattern-background-desktop.svg) no-repeat;
+    background: var(--primary-pale) url(./images/pattern-background-desktop.svg)
+      no-repeat;
   }
 }
