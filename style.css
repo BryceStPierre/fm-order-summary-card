@@ -78,7 +78,8 @@ body {
 
 .plan__name {
   font-weight: 900;
-  margin-bottom: 5px;
+  font-size: inherit;
+  margin: 0 0 5px 0;
 }
 
 .plan__price {
@@ -96,7 +97,7 @@ body {
 }
 
 a {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 #cancel {
@@ -110,7 +111,7 @@ a {
 
 .btn {
   display: block;
-  padding: 18px;
+  padding: 16px;
   border-radius: 10px;
   text-align: center;
   font-weight: 700;
