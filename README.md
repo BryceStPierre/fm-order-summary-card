@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/BryceStPierre/fm-order-summary-component)
-- Live Site URL: [Add live site URL here](https://bsp-order-summary-card.netlify.app)
+- Solution URL: [GitHub](https://github.com/BryceStPierre/fm-order-summary-component)
+- Live Site URL: [Netlify](https://bsp-order-summary-card.netlify.app)
 
 ## My process
 
@@ -41,6 +41,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.brycestpierre.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BryceStPierre)
+- Website - [Bryce St. Pierre](https://www.brycestpierre.com)
+- Frontend Mentor - [@brycestpierre](https://www.frontendmentor.io/profile/BryceStPierre)
 - Twitter - [@BryceStPierre](https://www.twitter.com/brycestpierre)
