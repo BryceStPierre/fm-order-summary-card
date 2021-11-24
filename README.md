@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/BryceStPierre/fm-order-summary-component)
+- Solution URL: [GitHub](https://github.com/BryceStPierre/fm-order-summary-card)
 - Live Site URL: [Netlify](https://bsp-order-summary-card.netlify.app)
 
 ## My process
