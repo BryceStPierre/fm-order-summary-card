@@ -4,7 +4,6 @@ html {
 
 body {
   height: -webkit-fill-available;
-  max-height: 100vh;
   background: var(--primary-pale) url(./images/pattern-background-mobile.svg)
     no-repeat;
   background-position: top;
@@ -23,9 +22,6 @@ body {
   --neutral-very-pale: hsl(225, 100%, 98%);
   --neutral-desaturated: hsl(224, 23%, 55%);
   --neutral-dark: hsl(223, 47%, 23%);
-
-  --padding: 25px;
-  --padding-md: 50px;
 }
 
 .card {
