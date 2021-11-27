@@ -1,5 +1,6 @@
 body {
   height: 100vh;
+  max-height: 100vh;
   background: var(--primary-pale) url(./images/pattern-background-mobile.svg)
     no-repeat;
   background-position: top;
