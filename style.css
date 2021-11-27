@@ -1,6 +1,10 @@
-html {
-  height: -webkit-fill-available;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
+
+/* html {
+  height: -webkit-fill-available;
+} */
 
 body {
   height: -webkit-fill-available;
