@@ -11,11 +11,10 @@ body {
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  padding: 25px;
+  padding: 0 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
 
   --primary-pale: hsl(225, 100%, 94%);
   --primary-bright: hsl(245, 75%, 52%);
