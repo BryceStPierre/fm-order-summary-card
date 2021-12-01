@@ -2,12 +2,13 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
+  height: 100vh;
   height: -webkit-fill-available;
+  height: stretch;
 }
 
 body {
-  height: -webkit-fill-available;
   background: var(--primary-pale) url(./images/pattern-background-mobile.svg)
     no-repeat;
   background-position: top;
